@@ -1,0 +1,420 @@
+body {
+  font: 1em Helvetica;
+  background-color: red;
+  background-image: linear-gradient(
+    to right,
+    rgb(121, 125, 247),
+    rgb(209, 153, 202)
+  );
+  font-family: "Poppins", sans-serif;
+}
+
+#content {
+  text-align: center;
+  vertical-align: middle;
+  align-content: center;
+  display: flex;
+  padding-left: 3%;
+  padding-right: 1%;
+  width: auto;
+}
+
+#first {
+  text-align: center;
+}
+
+.header h1 {
+  margin-left: 20px;
+  color: white;
+  font-size: 85px;
+  text-align: start;
+  margin-bottom: 10px;
+  padding-bottom: 50px;
+  margin-top: 60px;
+  line-height: 80px;
+  font: bold;
+}
+
+.boxes {
+  display: flex;
+}
+
+#ShowUniqueID {
+  margin-top: 10%;
+  width: 50vh;
+}
+
+#ShowUniqueID P {
+  color: white;
+  font-size: 35px;
+}
+
+.ok {
+  font-size: smaller;
+  width: 10px;
+  height: 10px;
+  top: 1px;
+}
+
+#showunique {
+  width: 200px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 50px;
+  color: #212529;
+  background-color: #edf0e9;
+  border-color: #212529;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.Upload {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.07), 0 6px 20px 0 rgba(0, 0, 0, 0.07);
+  background-color: rgb(232, 232, 232);
+  border-radius: 10px;
+  width: 310px;
+  height: 435px;
+  margin-left: 20px;
+  margin-right: 50px;
+}
+
+h3 {
+  font-size: 27px;
+  border-bottom: 3px solid rgb(130, 129, 129);
+  padding-bottom: 12px;
+  color: #313030;
+}
+.Upload button{
+  margin-top: 25px;
+}
+
+.imageFile {
+  border: 2px dashed #b4b1b1;
+  height: 200px;
+  width: 230px;
+  border-radius: 10px;
+  margin: auto;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.text-header2 {
+  font-weight: 600;
+  font-size: smaller;
+  font-style: normal;
+  color: #8c8a8a;
+}
+
+.text-header2 span{
+  font-weight: lighter;
+}
+
+.Upload img {
+  padding-top: 7%;
+  padding-bottom: 1%;
+}
+
+
+input {
+  font-weight: 600;
+  font-size: smaller;
+  font-style: normal;
+  color: #aaaaaa;
+  text-align: center;
+  width: 215px;
+  height: 40px;
+  border: 3px solid rgb(205, 204, 205);
+  border-radius: 8px;
+  margin-top: 35px;
+}
+
+input:valid{
+  font-size: large;
+  color: black;
+}
+
+button {
+  vertical-align: bottom;
+  font-size: 22px;
+  color: white;
+  width: 225px;
+  height: 47px;
+  margin-bottom: 15px;
+  border-radius: 0.7vh;
+  background-color: rgb(33, 36, 40);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.how_to_use {
+  color: white;
+  border-left: 3px solid white;
+  text-align: left;
+  padding-left: 5%;
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 35%;
+}
+
+.list {
+  line-height: 40px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(164, 113, 215),
+    rgb(203, 140, 208)
+  );
+  background-image: linear-gradient(
+    to right,
+    rgb(160, 120, 214),
+    rgb(200, 130, 206)
+  );
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-left: 17px;
+}
+
+#box-head {
+  display: flex;
+  justify-content: space-around;
+  line-height: 40px;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(180, 113, 215),
+    rgb(203, 140, 208)
+  );
+  background-image: linear-gradient(
+    to right,
+    rgb(165, 120, 214),
+    rgb(200, 130, 206)
+  );
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-left: 25px;
+}
+
+#box-head .box p {
+  padding: 0%;
+  margin: 0%;
+}
+
+.box{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#ShowUniqueID {
+  background: #ffffff;
+  border-radius: 10px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  margin: auto;
+  color: #333;
+  width: 300px;
+  height: 200px;
+  border: 5px solid #7e7e7e;
+}
+#ShowUniqueID h1{
+    font-size: 30px;
+    color: #1b2631;
+    margin-bottom: -10px;
+    margin-top: -10px;
+  }
+#showunique{
+    font-size: large;
+    width: 120px;
+}
+
+.buttonContainer{
+  margin: -7px;
+  align-items: end;
+}
+
+.inputContainer{
+  display: contents;
+}
+.copy{
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  margin-bottom: -15px;
+  margin-left: 10px;
+}
+
+.copy:hover{
+  cursor: pointer;
+  background-color:rgb(164, 113, 215);
+}
+
+#showText{
+  background-color: rgb(164, 113, 215);
+  border-radius: 11px;
+  color: black;
+  padding: 5px;
+  font-size: small;
+  position: fixed;
+  margin-top: -90px;
+  margin-left: 210px;
+  align-items: flex-start;
+}
+
+.closeButton{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  cursor: pointer;
+  background: black;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#loading{
+  position: fixed;
+  top: 30%;
+  left: 45%;
+  filter: opacity(100%);
+  height: 70px;
+	width: 70px;
+	border: 15px solid #fff;
+	border-radius: 50%;
+	border-top: 15px solid #3c3c3c;
+	animation: spin 2s linear infinite;
+}
+
+@keyframes spin{
+	100%{
+		transform: rotate(360deg);
+	}
+}
+
+#loading img{
+  border-radius: 20px;
+}
+
+#Blur.screen{
+  filter: blur(20px);
+  user-select: none;
+  pointer-events: none;
+
+}
+
+
+@media (max-width: 799px) {
+  body {
+    font: 0.2em sans-serif;
+  }
+  #content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header h1 {
+    font-size: 8.5vh;
+  }
+  .Upload {
+    width: 45%;
+    height: 420px;
+  }
+
+
+  input {
+    font-size: 15px;
+    width: 70%;
+  }
+
+  #downloadiv h4 {
+    margin-bottom: 7px;
+  }
+
+  .how_to_use {
+    width: 88%;
+    border: 0px;
+    font-size: 20px;
+    padding: 0px;
+    margin: 30px;
+  }
+
+  h4 {
+    font-size: 25px;
+  }
+  #box-head .box p {
+    font-size: medium;
+    margin-top: -15px;
+  }
+  .footer {
+    font-size: medium;
+    align-items: center;
+    display: block;
+    padding-top: 50px;
+  }
+  #ShowUniqueID {
+    left: 35%;
+  }
+  
+}
+
+@media (max-width: 477px) {
+  .header img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .header h1 {
+    font-size: 5vh;
+    line-height: 50px;
+    margin-left: 33px;
+    margin-right: auto;
+    margin-bottom: -20px;
+    margin-top: 20px;
+  }
+  
+  .text-header2 {
+    font-size: medium;
+  }
+
+  .Upload {
+    width: 80%;
+    margin-top: -10px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .how_to_use {
+    width: 85%;
+    padding: 0px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .boxes {
+    display: inline;
+  }
+
+  #loading{
+    top: 40%;
+    left: 40%;
+  }
+
+  #box-head .box p {
+    font-size: small;
+  }
+  .footer {
+    font-size: small;
+    align-items: center;
+    display: block;
+    padding-top: 50px;
+  }
+  #ShowUniqueID {
+    top: 40%;
+    left: 14%;
+  }
+}

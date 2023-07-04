@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Secure Files</title>
+  </head>
+  <body>
+    <div id="Blur">
+    <section id="content" class="drag-area">
+      <div id="first">
+        <div class="header">
+          <h1>
+            <a
+              href="https://securefiles.cf"
+              style="text-decoration: none; color: white"
+              >Share
+              <img src="Image/paperplane.png" width="65" height="65" /><br />
+              Secure Files</a
+            >
+          </h1>
+        </div>
+        <div class="boxes">
+          <div class="Upload">
+            <h3 class="button-head">Upload Files</h3>
+            <div class="imageFile">
+              <img src="Image/file.png" width="90px" height="110px" /><br />
+              <h4 class="text-header text-header2">
+                Click to upload
+                <span
+                  >or drag <br />
+                  and drop</span
+                >
+              </h4>
+            </div>
+            <input type="file" id="file" hidden class="file-type" />
+            <button id="upload" class="upload" onclick="uploadImage()" >
+              Upload
+            </button>
+          </div>
+          <div class="Upload" id="downloadiv">
+            <h3>Download Files</h3>
+            <div>
+              <img
+                src="Image/file2.png"
+                width="95px"
+                height="110px"
+                id="get"
+              /><br />
+            </div>
+            <input
+              type="text"
+              id="unique"
+              required="required"
+              placeholder="Enter Unique ID"
+            />
+            <button id="show" onclick="showimage()">Download</button>
+          </div>
+        </div>
+      </div>
+      <div class="how_to_use">
+        <div class="list">
+          <h4>How to use?</h4>
+          <ol type="1">
+            <li>Select and upload a file.</li>
+            <li>Wait for the file to be uploaded.</li>
+            <li>Share the Unique ID of the file with the receiver,</li>
+            <li>
+              Receiver can acess the file using the Unique ID of the file.
+            </li>
+            <li>
+              When the file is received by the recipient, it is automatically
+              removed from the server database.
+            </li>
+            <li>Each file share is valid for single transaction.</li>
+          </ol>
+        </div>
+        <div id="box-head">
+          <div class="box">
+            <img src="Image/icons8-web-account-64 1.png" alt="" srcset="" />
+            <p>No Sign-up Process</p>
+            <img
+              src="Image/icons8-internet-speed-test-64 1.png"
+              alt=""
+              srcset=""
+            />
+            <p>Fast & Secure</p>
+          </div>
+          <div class="box">
+            <img src="Image/zip-file2.png" alt="" srcset="" />
+            <p>Avoid Zipping</p>
+            <img
+              src="Image/icons8-application-window-64 1.png"
+              alt=""
+              srcset=""
+            />
+            <p>Use in any browser</p>
+          </div>
+        </div>
+        <p class="footer" hidden align="center">
+          Securefiles.cf © 2022, All Rights Reserved.
+        </p>
+      </div>
+    </div>
+    </section>
+
+    <div id="ShowUniqueID" hidden  align="center">
+      <div class="buttonContainer" align="end">
+        <button class="closeButton" onclick="closePopup()">&times;</button>
+      </div>
+      <h1>Your Unique ID</h1>
+      <div class="inputContainer">
+        <input type="text" id="showunique" disabled />
+        <img
+          class="copy"
+          onclick="copy()"
+          src="Image/copy.png"
+          alt="copy"
+          width="25px"
+          height="25px"
+        />
+        <span id="showText" hidden>Copied!</span>
+      </div>
+    </div>
+
+    <div id="loading" hidden>
+    </div>
+
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase.js"></script>
+  <script src="script.js"></script>
+</html>
